@@ -30,8 +30,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
 
   static const String backEndApiUrl = String.fromEnvironment("BACKEND_APIURL");
-  static const String backEndApiKey = String.fromEnvironment("BACKEND_APIKEY");
-
 
   @override
   Widget build(BuildContext context) {
@@ -50,18 +48,6 @@ class _MyHomePageState extends State<MyHomePage> {
               padding: EdgeInsets.all(18.0),
               child: Text(
                 "BackendAPI: " + backEndApiUrl,
-                style: TextStyle(color: Colors.white, fontSize: 25),
-              ),
-            ),
-          ),
-          Container(
-            decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(10),
-                color: Colors.redAccent),
-            child: const Padding(
-              padding: EdgeInsets.all(18.0),
-              child: Text(
-                "BackendAPI: " + backEndApiKey,
                 style: TextStyle(color: Colors.white, fontSize: 25),
               ),
             ),
