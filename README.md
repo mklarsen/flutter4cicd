@@ -1,4 +1,4 @@
-# flutter4cicd
+# make run-time environment variables available to flutter code is not really working, in docker
 
 so, a typical problem, we would like to have dynamic environments so that we can minimize docker images and versions of our executables etc
 
